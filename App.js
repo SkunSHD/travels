@@ -1,6 +1,9 @@
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 import { AppLoading, Font, Icon } from 'expo';
+// Components
+import Hello from "./src/src/components/Hello.component";
+
 
 export default class App extends React.Component {
 	state = {
@@ -19,10 +22,11 @@ export default class App extends React.Component {
 		} else {
 			return (
 				<View>
-					<Text>HELLO 1</Text>
-					<Text>HELLO</Text>
-					<Text>HELLO</Text>
-					<Text>HELLO</Text>
+					<Text>1...</Text>
+					<Text>2...</Text>
+					<Text>3...</Text>
+					<Text>4...</Text>
+					<Hello />
 				</View>
 			);
 		}
